@@ -1,0 +1,22 @@
+.explore__button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.arrow{
+    border-radius: 50%;
+    background: #F24B88;
+    background-image: url('../../../images/Arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.explore__text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+
+}
