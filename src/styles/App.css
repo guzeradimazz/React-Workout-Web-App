@@ -7,4 +7,6 @@
 body{
     background-color: #1F1C26;
     font-family: 'Poppins', sans-serif;
+    width: 90vw;
+    margin: auto;
 }

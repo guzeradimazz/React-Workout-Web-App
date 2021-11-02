@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 65px auto;
-    width: 90vw;
 }
 .header__logo{
     width: 237px;
