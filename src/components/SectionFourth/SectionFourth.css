@@ -35,6 +35,7 @@
     text-transform: uppercase;
     border-radius: 10px;
     font-size: 18px;
+    cursor: pointer;
     padding: 10px 0px;
 }
 .fourth__btns button:nth-child(odd){

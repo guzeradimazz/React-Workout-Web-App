@@ -28,11 +28,11 @@ const SectionSecond = () => {
             </div>
             <div className="second__content">
                 {sectionContent.map(item=>(
-                    <div className='second__content__item'>
+                    <div key={`${item.title}`+10}  className='second__content__item'>
                         <div className={item.classTag}></div>
                         <h3>{item.title}</h3>
                         <p className='simple__text'>{item.body}</p>
-                        <SeeMoreButton/>
+                        <SeeMoreButton text='see more'/>
                     </div>
                 ))}
             </div>

@@ -29,7 +29,7 @@ const SectionFirst = () => {
                 <div className="first__right__woman"></div>
                 <div style={{width:'40%', display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
                     {blocksInfo.map(item=>(
-                        <div className='first__right__block'>
+                        <div key={`${item.title}`+10} className='first__right__block'>
                             <h3>{item.title}</h3>
                             <p className='simple__text'>{item.body}</p>
                             <ExploreButton/>

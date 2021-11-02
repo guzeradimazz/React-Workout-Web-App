@@ -36,13 +36,13 @@ const SectionThird = () => {
             </div>
             <div className='third__cards'>
                 {sectionCards.map(item=>(
-                    <div className='third__cards__item'>
+                    <div key={`${item.name}`+10}  className='third__cards__item'>
                         <div className={item.trainer}></div>
                         <div className="third__cards__item__content">
                             <h3>{item.name}</h3>
                             <strong>{item.position}</strong>
                             <p>{item.body}</p>
-                            <SeeMoreButton classNameTag={'to__right'}/>
+                            <SeeMoreButton text='see more' classNameTag={'to__right'}/>
                         </div>
                     </div>
                 ))}

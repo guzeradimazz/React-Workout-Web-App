@@ -21,7 +21,14 @@
     flex-direction: row;
     align-items: center;
 }
+.header__sidebar__nav__item:nth-child(1)::after{
+    content: '';
+    display: block;
+    width: 50px;
+    border-bottom: 5px solid #59253E;
+}
 .header__sidebar__nav__item{
+    cursor: pointer;
     margin-right: 40px;
     color: #F2F2F2;
 }

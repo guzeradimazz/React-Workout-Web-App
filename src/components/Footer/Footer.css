@@ -1,0 +1,71 @@
+.footer__left__icons .elem:nth-child(1){
+    background-image: url('../../images/Asset\ 2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.footer__left__icons .elem:nth-child(2){
+    background-image: url('../../images/Asset\ 3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.footer__left__icons .elem:nth-child(3){
+    background-image: url('../../images/Asset\ 4.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.footer__left__icons .elem:nth-child(4){
+    background-image: url('../../images/Asset\ 6.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 35px 0;
+}
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__left__icons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer__center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__center ul{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+.footer__center ul:nth-child(1){
+    margin-right: 50px;
+}
+.footer__center li{
+    cursor: pointer;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+}
+.footer__center li:nth-child(1){
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
