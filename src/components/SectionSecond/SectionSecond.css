@@ -1,0 +1,64 @@
+.second{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px auto 50px auto;
+}
+.second__head{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.second__head h1::after{
+    content: '';
+    display: block;
+    width: 73px;
+    border-bottom: 5px solid #59253E;
+}
+.second__head p{
+    cursor: pointer;
+}
+.second__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.second__content__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 360px;
+}
+.second__content__item h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.run{
+    background-image: url('../../images/RUNNING1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 209px;
+}
+.lift{
+    background-image: url('../../images/LIFTING3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 209px;
+}
+.yoga{
+    background-image: url('../../images/YOGA3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 209px;
+}

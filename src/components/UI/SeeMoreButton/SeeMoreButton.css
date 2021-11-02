@@ -1,0 +1,12 @@
+.see__more__button{
+    border: 1px solid #F24B88;
+    background-color: #F24B88;
+    border-radius: 10px;
+    width: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}

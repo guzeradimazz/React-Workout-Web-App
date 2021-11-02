@@ -1,0 +1,7 @@
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+}

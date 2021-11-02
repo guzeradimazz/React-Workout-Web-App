@@ -1,5 +1,7 @@
 import Header from './components/Header/Header';
 import SectionFirst from './components/SectionFirst/SectionFirst';
+import SectionSecond from './components/SectionSecond/SectionSecond';
+import SectionThird from './components/SectionThird/SectionThird';
 import './styles/App.css';
 
 function App() {
@@ -7,10 +9,10 @@ function App() {
     <div className="App">
       <Header/>
       <SectionFirst/>
+      <SectionSecond/>
+      <SectionThird/>
 
 
-
-      
     </div>
   );
 }
