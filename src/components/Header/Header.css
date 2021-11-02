@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 65px auto;
+    margin: 0px auto;
+    padding-top: 65px;
 }
 .header__logo{
     width: 237px;
