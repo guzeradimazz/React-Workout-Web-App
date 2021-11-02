@@ -13,6 +13,8 @@
     background-position: center;
 }
 .header__sidebar{
+    position: absolute;
+    right: 5vw;
     display: flex;
     flex-direction: row;
     align-items: center;

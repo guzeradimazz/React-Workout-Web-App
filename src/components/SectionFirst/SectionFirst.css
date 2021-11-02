@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
+    margin: 30px auto;
 }
 .first__left{
     width: 45%;
@@ -13,8 +13,8 @@
 .first__rcont{
     width:40%;
      display:flex;
-     flexDirection:column;
-     justifyContent:space-around;
+     flex-direction:column;
+     justify-content:space-around;
 }
 .first__left button{
     margin-top: 20px;
