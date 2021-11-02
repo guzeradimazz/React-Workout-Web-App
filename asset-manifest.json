@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Workout-Web-App/static/css/main.3a86372c.chunk.css",
-    "main.js": "/React-Workout-Web-App/static/js/main.cd4eaf85.chunk.js",
-    "main.js.map": "/React-Workout-Web-App/static/js/main.cd4eaf85.chunk.js.map",
+    "main.css": "/React-Workout-Web-App/static/css/main.d63fad7d.chunk.css",
+    "main.js": "/React-Workout-Web-App/static/js/main.ea1715b7.chunk.js",
+    "main.js.map": "/React-Workout-Web-App/static/js/main.ea1715b7.chunk.js.map",
     "runtime-main.js": "/React-Workout-Web-App/static/js/runtime-main.c7cd6e9f.js",
     "runtime-main.js.map": "/React-Workout-Web-App/static/js/runtime-main.c7cd6e9f.js.map",
     "static/js/2.25cbff16.chunk.js": "/React-Workout-Web-App/static/js/2.25cbff16.chunk.js",
     "static/js/2.25cbff16.chunk.js.map": "/React-Workout-Web-App/static/js/2.25cbff16.chunk.js.map",
     "index.html": "/React-Workout-Web-App/index.html",
-    "static/css/main.3a86372c.chunk.css.map": "/React-Workout-Web-App/static/css/main.3a86372c.chunk.css.map",
+    "static/css/main.d63fad7d.chunk.css.map": "/React-Workout-Web-App/static/css/main.d63fad7d.chunk.css.map",
     "static/js/2.25cbff16.chunk.js.LICENSE.txt": "/React-Workout-Web-App/static/js/2.25cbff16.chunk.js.LICENSE.txt",
     "static/media/ExploreButton.css": "/React-Workout-Web-App/static/media/Arrow.bc57d422.svg",
+    "static/media/SectionThird.css": "/React-Workout-Web-App/static/media/Frame 4.12387daa.png",
     "static/media/SectionSecond.css": "/React-Workout-Web-App/static/media/YOGA3.be30e415.png",
     "static/media/Header.css": "/React-Workout-Web-App/static/media/Logo.44ddae34.svg",
     "static/media/SectionFirst.css": "/React-Workout-Web-App/static/media/woman.49887d60.svg"
@@ -18,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c7cd6e9f.js",
     "static/js/2.25cbff16.chunk.js",
-    "static/css/main.3a86372c.chunk.css",
-    "static/js/main.cd4eaf85.chunk.js"
+    "static/css/main.d63fad7d.chunk.css",
+    "static/js/main.ea1715b7.chunk.js"
   ]
 }
