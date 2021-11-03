@@ -3,7 +3,7 @@
         display: none;
     }
 }
-@media screen and (max-width:414px){
+@media screen and (min-width:414px){
     .first{
         flex-direction: column-reverse;
         justify-content: center;
@@ -134,5 +134,11 @@
     }
     .menu.active{
         z-index: 100;
+    }
+}
+@media screen and (min-width:375px){
+    .fourth__btns button{
+        width: 150px;
+        height: 50px;
     }
 }
