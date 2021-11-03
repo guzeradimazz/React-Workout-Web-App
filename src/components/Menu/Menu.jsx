@@ -9,8 +9,8 @@ const Menu = ({active,setActive,items}) => {
                 {
                     <ul>
                         {items.map(item=>
-                            <li>
-                                <a href="#">{item}</a>
+                            <li key={item+'22'}>
+                                <a href='https://guzeradimazz.github.io/React-Workout-Web-App/'>{item}</a>
                             </li>
                         )}
                     </ul>

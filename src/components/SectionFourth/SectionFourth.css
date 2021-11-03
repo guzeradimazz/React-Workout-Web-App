@@ -47,3 +47,13 @@
     border: 1px solid #1F1C26;
     background-color: #1F1C26;
 }
+.fourth__btns button:nth-child(even):hover{
+    background-color: #F24B88;
+    border: 1px solid #F24B88;
+    transition: .4s ease;
+}
+.fourth__btns button:nth-child(odd):hover{
+    background-color: #1F1C26;
+    border: 1px solid #1F1C26;
+    transition: .4s ease;
+}

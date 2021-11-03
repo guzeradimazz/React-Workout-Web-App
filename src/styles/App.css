@@ -10,3 +10,22 @@ body{
     width: 90vw;
     margin: auto;
 }
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(242, 75, 136,0);
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 #F24B88; }
+  35% { box-shadow: 0px 0px 10px 0px #F24B88;}
+  50% { box-shadow: 0 0 20px 0 #F24B88;}
+ 100% { box-shadow: 0 0 0 0 #F24B88; }
+}
+li:hover{
+  color: #F24B88;
+  transition: .5s ease;
+}
+.header__sidebar__nav__item:hover{
+  color: #F24B88;
+  transition: .5s ease;
+}

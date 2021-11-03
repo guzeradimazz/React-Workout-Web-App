@@ -32,17 +32,17 @@ const SectionThird = () => {
     return (
         <div className='third'>
             <div className="second__head">
-                <h1>our team</h1>
+                <h1 data-aos="fade-right">our team</h1>
             </div>
             <div className='third__cards'>
                 {sectionCards.map(item=>(
-                    <div key={`${item.name}`+10}  className='third__cards__item'>
+                    <div data-aos="fade-right" data-aos-offset='500' key={`${item.name}`+10}  className='third__cards__item'>
                         <div className={item.trainer}></div>
                         <div className="third__cards__item__content">
                             <h3>{item.name}</h3>
                             <strong>{item.position}</strong>
                             <p>{item.body}</p>
-                            <SeeMoreButton text='see more' classNameTag={'to__right'}/>
+                            <SeeMoreButton text='see more' classNameTag={'to__right pulse'}/>
                         </div>
                     </div>
                 ))}

@@ -30,34 +30,97 @@
     align-items: center;
 }
 .second__content__item{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
-    width: 360px;
+    width: 100%;
+    align-items: center;
+    transition: all 0.4s ease;
 }
 .second__content__item h3{
     color: #fff;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.second__content__item p{
+    text-align: center;
+    width: 60%;
 }
 .run{
     background-image: url('../../images/RUNNING1.png');
     background-position: center;
     background-repeat: no-repeat;
-    width: 360px;
-    height: 209px;
+    background-size: 100%;
+    width: 450px;
+    height: 229px;
 }
 .lift{
     background-image: url('../../images/LIFTING3.png');
     background-position: center;
     background-repeat: no-repeat;
-    width: 360px;
-    height: 209px;
+    background-size: 100%;
+    width: 450px;
+    height: 229px;
 }
 .yoga{
     background-image: url('../../images/YOGA3.png');
     background-position: center;
     background-repeat: no-repeat;
-    width: 360px;
-    height: 209px;
+    background-size: 100%;
+    width: 450px;
+    height: 229px;
+}
+.active__slide{
+    display: flex;
+    animation-name: Appearance;
+    animation-duration: .3s;
+    animation-timing-function: ease
+}
+@-webkit-keyframes Appearance {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+@-o-keyframes Appearance {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+@-moz-keyframes Appearance {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes Appearance {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider__content{
+    width: 80%;
+    margin: auto;
+}
+.prev{
+    cursor: pointer;
+    transform: rotate(-45deg);
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+.next{
+    cursor: pointer;
+    transform: rotate(45deg);
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
 }

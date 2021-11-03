@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer'>
             <hr />
             <div className="footer__content">
-                <div className="footer__left">
+                <div className="footer__left" data-aos="fade-left">
                     <div className='header__logo'></div>
                     <div className="footer__left__icons">
                         <div className="elem"></div>
@@ -31,7 +31,7 @@ const Footer = () => {
                         <li>contact us</li>
                     </ul>
                 </div>
-                <div className="footer__right">
+                <div className="footer__right" data-aos="fade-right">
                     <Form/>
                 </div>
             </div>
