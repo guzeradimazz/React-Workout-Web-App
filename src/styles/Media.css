@@ -7,6 +7,9 @@
     .fourt__content{
         align-items: center;
     }
+    .run , .lift , .yoga{
+        width: 320px;
+    }
     .next , .prev{
         margin-top: 75px;
     }
