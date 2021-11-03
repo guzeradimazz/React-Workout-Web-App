@@ -3,7 +3,25 @@
         display: none;
     }
 }
-@media screen and (min-width:414px){
+@media screen and (max-width:414px){
+    .fourt__content{
+        align-items: center;
+    }
+    .next , .prev{
+        margin-top: 75px;
+    }
+    
+    .fourth__btns button{
+        width: 150px;
+        height: 50px;
+    }
+    .fourth__btns{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fourth__btns button:nth-child(odd){
+        margin: 0 0 20px 0;
+    }
     .first{
         flex-direction: column-reverse;
         justify-content: center;
@@ -137,8 +155,5 @@
     }
 }
 @media screen and (min-width:375px){
-    .fourth__btns button{
-        width: 150px;
-        height: 50px;
-    }
+
 }
