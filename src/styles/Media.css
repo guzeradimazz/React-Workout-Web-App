@@ -35,10 +35,10 @@
     .first__right__woman{
         margin: 30px auto;
         background-position: top;
-        width: 80%;
+        width: 100%;
         border-radius: 10px;
-        background-size: 80%;
-        height: 300px;
+        background-size: 100%;
+        height: 400px;
     }
     .first__right__block{
         display: none;
@@ -90,5 +90,49 @@
         width: 30px;
         background-color: rgb(255, 255, 255);
         height: 2px;
+    }
+    .third__cards{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .third__cards__item{
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .trainer__first{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .trainer__second{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .trainer__third{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .trainer__fourth{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .footer__content{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .footer__left{
+        align-items: center;
+    }
+    .elem{
+        margin-left: 10px;
+    }
+    .footer__center ul{
+        margin: 20px 0;
+        align-items: center;
+    }
+    .menu.active{
+        z-index: 100;
     }
 }
