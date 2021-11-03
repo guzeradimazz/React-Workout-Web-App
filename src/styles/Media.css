@@ -4,6 +4,31 @@
     }
 }
 @media screen and (max-width:414px){
+    .form{
+        width:320px;
+    }
+    .slider{
+        padding: 0 10px;
+    }
+    .fourth{
+        padding: 20px;
+    }
+    .second__content__item p{
+        width: 100%;
+    }
+    .fourth__title{
+        font-size: 35px;
+    }
+    .footer__center ul:nth-child(2){
+        padding-right: 15px;
+    }
+    .footer__center{
+        width: 320px;
+        justify-content: space-around;
+    }
+    .form input{
+        width: 90%;
+    }
     .fourt__content{
         align-items: center;
     }
@@ -13,7 +38,6 @@
     .next , .prev{
         margin-top: 75px;
     }
-    
     .fourth__btns button{
         width: 150px;
         height: 50px;
@@ -59,7 +83,7 @@
         width: 100%;
         border-radius: 10px;
         background-size: 100%;
-        height: 400px;
+        height: 300px;
     }
     .first__right__block{
         display: none;

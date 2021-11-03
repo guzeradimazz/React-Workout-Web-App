@@ -4,6 +4,9 @@
     list-style:none;
     box-sizing:border-box;
 }
+html{
+    overflow-x: hidden !important;
+}
 body{
     background-color: #1F1C26;
     font-family: 'Poppins', sans-serif;
